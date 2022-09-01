@@ -1,0 +1,190 @@
+@import url(//db.onlinewebfonts.com/c/3cbd18ee75a23e404e78614692aa64e8?family=Ford+Antenna+Light);
+@import url(//db.onlinewebfonts.com/c/64ed162a9b60d0154a9ab48c155d0aca?family=Ford+Antenna+Semibold);
+@import url(//db.onlinewebfonts.com/c/9bf8d97dc76c21ccf6da3143e3d3ea5f?family=Ford+Antenna+Cond+Regular);
+/* Globals */
+body{
+    margin: 0;
+    
+}
+
+/* "eyebrow" (ceja) section*/
+.eyebrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 40px;
+}
+.eyebrow-left{
+    margin-left: 20px;
+    display:inline-flex;
+    align-items: center;
+}
+.eyebrow-left li{
+    
+    display: inline-flex;
+    font-family: "Ford Antenna Semibold";
+    font-size: 11px;
+    letter-spacing: 1px ;
+    color: #00095B;
+    cursor: pointer;
+    align-items: center;
+    fill:#00095B;
+    float: left; border-right: 1px solid rgb(212, 197, 197); padding: 0 1em;
+}
+.eyebrow-left li:last-child{border:0;}
+.eyebrow-left li:hover {
+    color: blue;
+    fill:blue;
+   
+}
+.svgicon{
+    height:2em;
+    width:3em;
+    padding-right: 5px;
+    
+}
+
+.eyebrow-left img{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10px;
+}
+.eyebrow-right{
+    margin-left: auto;
+    display:inline-flex;
+    align-items: center;
+    padding-right: 3em;
+}
+.eyebrow-right li{
+    
+    display: inline-flex;
+    font-family: "Ford Antenna Light";
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 2px ;
+    color: #00095B;
+    cursor: pointer;
+    align-items: center;
+    fill:#00095B;
+    
+    padding-right: 2em;
+
+}
+.eyebrow-right li:hover {
+    color: blue;
+    fill:blue;
+}
+/*Navbar section*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+.navleft{
+    margin-left: 60px;
+    display:inline-flex;
+    align-items: center;
+}
+.navleft ul{
+    margin: 0;
+    padding-left: 0;
+}
+.navleft img{
+    width: 100px;
+    padding-right: 20px;
+}
+.navleft li{
+    padding-right: 5px;
+    display: inline;
+    font-family: "Ford Antenna Semibold";
+    font-size: 11px;
+    
+    letter-spacing: 2px;
+    color: #00095B;
+    cursor: pointer;
+}
+.navleft li:hover{
+    color:blue;
+}
+.navright{
+display:flex;
+align-items: center;
+margin-left: auto;
+padding-right: 50px;
+}
+.navright li{
+    padding-right: 5px;
+    display: inline;
+    font-family: "Ford Antenna Semibold";
+    font-size: 11px;
+    
+    letter-spacing: 2px;
+    color: #00095B;
+    cursor: pointer;
+}
+.navright li:hover{
+    color:blue;
+}
+/*Hero section*/
+.hero{
+  color:white;
+  font-family: "Ford Antenna Light";
+  text-shadow: 1px 1px #6e6d6d;
+ margin: 0;
+}
+.hero-text{
+    position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+
+}
+.title{
+    padding-top: 10px;
+    font-size: 2em;
+    
+}
+.subtitle{
+    font-size: 1em;
+    padding-top: 11px;
+    font-family: "Ford Antenna Light";
+}
+.CTA{
+   
+    color: white;
+    font-family: "Ford Antenna Cond Regular";
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.CTA a{
+    color: white;
+    font-family: "Ford Antenna Light";
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.CTA a:hover{
+    text-decoration: underline;
+}
+.CTA a::after{
+    content:"  >";
+}
+.disclaimer{
+    position: absolute;
+    bottom: 16%;
+    left: 4%;
+    text-align: left;
+    color: white;
+    font-family: "Ford Antenna Light";
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #111111;
+}

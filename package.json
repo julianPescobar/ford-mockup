@@ -1,0 +1,9 @@
+{
+  "homepage": "https://julianPescobar.github.io/intermittent-fasting",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "ghpages": "^0.0.10"
+  }
+}
